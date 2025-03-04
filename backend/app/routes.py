@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from models import ProblemRequest
-from generator import LeetCodeEditorialGenerator
+from app.models import ProblemRequest
+from app.generator import LeetCodeEditorialGenerator
 
 router = APIRouter()
 
